@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--main application container-->
+    <div class="container">
+        <!--left sidebar-->
+        <aside class="sidebar">
+            <h2>Twitter clone</h2>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">profile</a>
+                <a href="#">Ask AI</a>
+            </nav>
+
+        </aside>
+        <!--main feed-->
+        <main class="feed">
+            <h2>Home</h2>
+            <div class="compose-box">
+                <h3>what is happening</h3>
+                <textarea id="tweetInput" placeholder="write your tweet"></textarea>
+                <button id="tweetButton">Post</button>
+
+            </div>
+            <!--posts will appear here-->
+            <div id="postsContainer">
+
+            </div>
+
+        </main>
+        <aside class="right-sidebar">
+            <h3>Who to follow</h3>
+
+        </aside>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
